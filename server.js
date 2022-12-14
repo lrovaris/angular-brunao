@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
     next();
 });
 app.use(router);
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log("Servidor Ligado, escutando na porta 3001");
 
 });
